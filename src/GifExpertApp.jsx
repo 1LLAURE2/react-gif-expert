@@ -8,7 +8,7 @@ import {AddCategory,GifGrid } from "./components";
 // 3OHK3ggknQ9K5W3vBzOp6ETePJrhphe8
 //api.giphy.com/v1/gifs/search?api_key=3OHK3ggknQ9K5W3vBzOp6ETePJrhphe8
 export const GifExpertApp = () => {
-    const[categories,setCategories]=useState(['One Punch']);//,'Dragon Ball'
+    const[categories,setCategories]=useState(['Dragon Ball']);//,'Dragon Ball'
     console.log(categories)
     const onAddCategory=(newCateogry)=>{
         //
